@@ -18,7 +18,7 @@ header {
     color: #f9faf8;
     display: flex;
     flex-direction: column;
-    padding: 10px 120px;
+    padding: 50px 120px 100px;;
     min-width: 1100px;
 }
 
@@ -51,6 +51,12 @@ header {
 
 /* main header */
 
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .bigtitle {
     font-size: 48px;
     font-weight: 900;
@@ -65,7 +71,17 @@ header {
 
 .button1 {
     background: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 7px 25px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
 }
+
+/* upper-middle content */
+
+
 
 /* all links */
 
