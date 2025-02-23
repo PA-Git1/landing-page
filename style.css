@@ -81,7 +81,32 @@ header {
 
 /* upper-middle content */
 
+.mid1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px; 
+}
 
+.mid1-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    display: flex;
+    min-width: 120px;
+    max-width: 160px;
+}
 
 /* all links */
 
