@@ -156,6 +156,42 @@ header {
     font-weight: bold;
 }
 
+/* lower-middle content */
+
+.mid3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    background: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 40px 100px;
+    border-radius: 8px;
+    margin-top: 70px;
+    width: 900px;
+}
+
+.actiontxt {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button2 {
+    background: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 7px 25px;
+    border-radius: 8px;
+    border: 3px solid #f9faf8;
+    margin-top: 10px;
+}
+
 /* all links */
 
 a,
